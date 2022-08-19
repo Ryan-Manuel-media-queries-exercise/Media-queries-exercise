@@ -50,20 +50,50 @@
 
 @media only screen and (min-width: 600px) {
     body {
-        margin: 0;
+        margin: 20px;
+        font-family: 'Lato', sans-serif;
     }
     h1 {
-
+        position: absolute;
+        padding: 0;
+        top: -15px;
+    }
+    nav {
+        display: flex;
+        justify-content: flex-end;
     }
     ul {
         display: flex;
         flex-direction: row;
-        justify-content: flex-end;
+        margin-top: 0;
     }
     li {
         display: flex;
         list-style: none;
-        flex-basis: 5%;
+        justify-content: space-between;
+        padding-left: 15px;
+        margin-right: auto;
+    }
+    img {
+        margin-top: 25px;
+        width: 100%;
+    }
+    .hidden-on-desktop a {
+        display: none;
+    }
+    section {
+        display: inline-block;
+    }
+    .main {
+        width: 65%;
+    }
+    .sub-section {
+        float: right;
+        width: 30%;
+    }
+    footer {
+        margin-top: 150px;
+        margin-bottom: 100px;
     }
 }
 
